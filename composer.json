@@ -1,0 +1,22 @@
+{
+    "name": "control-corp/micro-mail",
+    "type": "library",
+    "description": "Mail templates package",
+    "homepage": "https://github.com/control-corp/micro-mail",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Control Corp",
+            "homepage": "https://github.com/control-corp",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+			"Mail\\": "Mail/"
+		}
+    }
+}
