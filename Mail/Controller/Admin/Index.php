@@ -1,6 +1,6 @@
 <?php
 
-namespace Mail\Controller\Front;
+namespace Mail\Controller\Admin;
 
 use Micro\Application\Controller\Crud;
 use Mail\Model;
@@ -10,7 +10,8 @@ use Micro\Form\Form;
 class Index extends Crud
 {
     protected $model = Model\Templates::class;
-
+	protected $scope = 'admin';
+	
     /**
      * (non-PHPdoc)
      * @see \Micro\Application\Controller\Crud::postValidate()
